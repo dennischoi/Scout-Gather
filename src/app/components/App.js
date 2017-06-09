@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+
+// Import Components
+
+// Import Styles and Images
 import logo from '../images/logo.svg';
 import '../styles/css/App.css';
 
