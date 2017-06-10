@@ -2,11 +2,13 @@ import React, { Component } from 'react';
 
 // Import Components
 import Header from './Header/Header';
+import Footer from './Footer/Footer';
 
 // Import Styles and Images
 import logo from '../images/logo.svg';
 import '../styles/css/App.css';
 import '../styles/css/Header/Header.css';
+import '../styles/css/Footer/Footer.css';
 
 class App extends Component {
   render() {
@@ -20,6 +22,7 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        <Footer />
       </div>
     );
   }
