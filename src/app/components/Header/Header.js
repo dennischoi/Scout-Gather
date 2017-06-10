@@ -17,6 +17,13 @@ class Header extends Component {
           <div className="navLink-container">
             <div className="navLink-table">
               <div>
+                <span className="navLink">Featured</span>
+              </div>
+            </div>
+          </div>
+          <div className="navLink-container">
+            <div className="navLink-table">
+              <div>
                 <span className="navLink">Chair</span>
               </div>
             </div>
