@@ -1,0 +1,16 @@
+.footerMain {
+	height: 200px;
+	background-color: #222;
+	color: #fff;
+}
+
+.footerContainer {
+	display: flex;
+	flex-direction: row;
+	text-align: left;
+}
+
+.footerItems {
+	flex: 1;
+	padding: 15px;
+}
