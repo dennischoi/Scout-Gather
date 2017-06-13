@@ -5,7 +5,7 @@ import Header from './Header/Header';
 import Footer from './Footer/Footer';
 
 // Import Styles and Images
-import logo from '../images/logo.svg';
+import logoBg from '../images/Valex_homebg.jpg';
 import '../styles/css/App.css';
 import '../styles/css/Header/Header.css';
 import '../styles/css/Footer/Footer.css';
@@ -15,13 +15,9 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+        <div className="App-Home">
+          <img src={logoBg} className="appBg" alt="logo" />
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
         <Footer />
       </div>
     );
