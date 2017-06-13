@@ -17,7 +17,7 @@ class Footer extends Component {
         		<h3>Media</h3>
         	</div>
         	<div className="footerItems">
-        		<h3></h3>
+        		
         	</div>
         	<div className="footerItems">
         		<h3>Contact Us</h3>
