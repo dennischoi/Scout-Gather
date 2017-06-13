@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 // Import Components
 import Header from './Header/Header';
+import Featured from './Featured/Featured';
 import Footer from './Footer/Footer';
 
 // Import Styles and Images
@@ -17,6 +18,9 @@ class App extends Component {
         <Header />
         <div className="App-Home">
           <img src={logoBg} className="appBg" alt="logo" />
+        </div>
+        <div>
+          <Featured />
         </div>
         <Footer />
       </div>
