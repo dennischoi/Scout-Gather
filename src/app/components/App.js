@@ -10,6 +10,7 @@ import logoBg from '../images/Valex_homebg.jpg';
 import '../styles/css/App.css';
 import '../styles/css/Header/Header.css';
 import '../styles/css/Footer/Footer.css';
+import '../styles/css/Featured/Featured.css';
 
 class App extends Component {
   render() {
