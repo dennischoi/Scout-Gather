@@ -12,15 +12,27 @@ class Footer extends Component {
         <section className="footerContainer">
         	<div className="footerItems">
         		<h3>Scout & Gather</h3>
+                <div>
+                    <span>Lorem Ipsum 123, Lorem IP</span>
+                </div>
         	</div>
         	<div className="footerItems">
         		<h3>Media</h3>
+                <div>
+                    <span>Instagram</span>
+                </div>
+                <div>
+                    <span>Facebook</span>
+                </div>
         	</div>
         	<div className="footerItems">
         		
         	</div>
         	<div className="footerItems">
         		<h3>Contact Us</h3>
+                <div>
+                    <span>Phone Number ---</span>
+                </div>
         	</div>
         </section>
       </div>
