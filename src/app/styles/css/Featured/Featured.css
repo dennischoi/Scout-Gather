@@ -1,5 +1,7 @@
 .subTitle--container {
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	height: 200px;
 	margin: 0 20%;
 	border-bottom: 2px solid black;
@@ -7,10 +9,9 @@
 
 .subTitle--text {
 	flex: 1;
-	font-size: 2.2vw;
+	font-size: 1.25em;
 	font-weight: bold;
 	font-style: italic;
-	line-height: 200px;
 }
 
 .Featured {
