@@ -22,52 +22,59 @@ class Featured extends Component {
     //   )
     // })
     return (
-      <section className="Featured">
-        <div className="featuredItems">
-          <div>
-            <h3>Lorem Ipsum</h3>
-            <img src={featureImg1} className="featuredImages" alt="items" />
-            <div className="featuredDetails"> 
-              <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                nisi ut aliquip ex ea commodo consequat.
-              </span>
-            </div>
+      <div>
+        <div>
+          <div className="subTitle--container">
+            <span className="subTitle--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
           </div>
         </div>
+        <section className="Featured">
+          <div className="featuredItems">
+            <div>
+              <h3>Lorem Ipsum</h3>
+              <img src={featureImg1} className="featuredImages" alt="items" />
+              <div className="featuredDetails"> 
+                <span>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                  nisi ut aliquip ex ea commodo consequat.
+                </span>
+              </div>
+            </div>
+          </div>
 
-        <div className="featuredItems">
-          <div>
-            <h3>Lorem Ipsum</h3>
-            <img src={featureImg2} className="featuredImages" alt="items" />
-            <div className="featuredDetails">
-              <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                nisi ut aliquip ex ea commodo consequat.
-              </span>
+          <div className="featuredItems">
+            <div>
+              <h3>Lorem Ipsum</h3>
+              <img src={featureImg2} className="featuredImages" alt="items" />
+              <div className="featuredDetails">
+                <span>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                  nisi ut aliquip ex ea commodo consequat.
+                </span>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div className="featuredItems">
-          <div>
-            <h3>Lorem Ipsum</h3>
-            <img src={featureImg3} className="featuredImages" alt="items" />
-            <div className="featuredDetails">
-              <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                nisi ut aliquip ex ea commodo consequat.
-              </span>
+          <div className="featuredItems">
+            <div>
+              <h3>Lorem Ipsum</h3>
+              <img src={featureImg3} className="featuredImages" alt="items" />
+              <div className="featuredDetails">
+                <span>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                  nisi ut aliquip ex ea commodo consequat.
+                </span>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
     );
   }
 }
