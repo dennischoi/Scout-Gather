@@ -10,7 +10,7 @@ class Footer extends Component {
     return (
       <div className="footerMain">
         <section className="footerContainer">
-        	<div className="footerItems">
+        	<div className="footerItems footerLocation">
         		<h3>Scout & Gather</h3>
                 <div>
                     <span>Lorem Ipsum 123, Lorem IP</span>
