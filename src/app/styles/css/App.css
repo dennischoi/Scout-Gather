@@ -11,3 +11,11 @@
   flex: 1;
   width: 100%;
 }
+
+
+/* Media Q when at 700px */
+@media(max-width: 700px) {
+	.appBg {
+	  height: 400px;
+	}
+}
