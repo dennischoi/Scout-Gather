@@ -18,10 +18,20 @@ class Footer extends Component {
         	</div>
         	<div className="footerItems">
         		<h3>Media</h3>
-                <div>
+                <div className="media__container">
+                    <div>
+                        <div>
+                        img here
+                        </div>
+                    </div>
                     <span>Instagram</span>
                 </div>
-                <div>
+                <div className="media__container">
+                    <div>
+                        <div>
+                        img here
+                        </div>
+                    </div>
                     <span>Facebook</span>
                 </div>
         	</div>
