@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 // Import Components
+import Chairs from '../Chairs/Chairs';
 
 
 // Import Styles and Images
@@ -74,6 +75,9 @@ class Featured extends Component {
             </div>
           </div>
         </section>
+
+        <Chairs />
+
       </div>
     );
   }

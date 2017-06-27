@@ -1,0 +1,27 @@
+
+.ChairsUpdate {
+	display: flex;
+	flex-direction: row;
+	padding: 20px;
+}
+
+.chairItems {
+	flex: 1;
+	padding: 20px;
+}
+
+.chairImages {
+	width: 100%;
+}
+
+.chairDetails {
+	padding: 20px 10px;
+	text-align: left;
+}
+
+/* Media Q when at 700px */
+@media(max-width: 700px) {
+	.ChairsUpdate {
+		flex-direction: column;
+	}
+}

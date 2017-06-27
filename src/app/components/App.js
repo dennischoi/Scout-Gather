@@ -11,6 +11,7 @@ import '../styles/css/App.css';
 import '../styles/css/Header/Header.css';
 import '../styles/css/Footer/Footer.css';
 import '../styles/css/Featured/Featured.css';
+import '../styles/css/Chairs/Chairs.css';
 
 class App extends Component {
   render() {

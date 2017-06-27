@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 // Import Components
-import ChairsUpdate from './ChairsUpdate/ChairsUpdate';
+import ChairsUpdate from './ChairsUpdate';
 
 class Chairs extends Component {
   render() {
