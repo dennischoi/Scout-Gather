@@ -1,0 +1,27 @@
+
+.TablesUpdate {
+	display: flex;
+	flex-direction: row;
+	padding: 20px;
+}
+
+.tableItems {
+	flex: 1;
+	padding: 20px;
+}
+
+.tableImages {
+	width: 100%;
+}
+
+.tableDetails {
+	padding: 20px 10px;
+	text-align: left;
+}
+
+/* Media Q when at 700px */
+@media(max-width: 700px) {
+	.TablesUpdate {
+		flex-direction: column;
+	}
+}

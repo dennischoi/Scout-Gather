@@ -4,11 +4,11 @@ import React, { Component } from 'react';
 
 
 // Import Styles and Images
-import tableImg1 from '../../images/valex_chair.jpg';
-import tableImg2 from '../../images/valex_desk.jpg';
-import tableImg3 from '../../images/valex_drawer.jpg';
+import deskImg1 from '../../images/valex_chair.jpg';
+import deskImg2 from '../../images/valex_desk.jpg';
+import deskImg3 from '../../images/valex_drawer.jpg';
 
-class TablesUpdate extends Component {
+class DesksUpdate extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -17,12 +17,12 @@ class TablesUpdate extends Component {
   render() {
 
     return (
-      <section className="TablesUpdate">
-        <div className="tableItems">
+      <section className="DesksUpdate">
+        <div className="deskItems">
           <div>
             <h3>Lorem Ipsum</h3>
-            <img src={tableImg1} className="tableImages" alt="items" />
-            <div className="tableDetails"> 
+            <img src={deskImg1} className="deskImages" alt="items" />
+            <div className="deskDetails"> 
               <span>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -33,11 +33,11 @@ class TablesUpdate extends Component {
           </div>
         </div>
 
-        <div className="tableItems">
+        <div className="deskItems">
           <div>
             <h3>Lorem Ipsum</h3>
-            <img src={tableImg2} className="tableImages" alt="items" />
-            <div className="tableDetails">
+            <img src={deskImg2} className="deskImages" alt="items" />
+            <div className="deskDetails">
               <span>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -48,11 +48,11 @@ class TablesUpdate extends Component {
           </div>
         </div>
 
-        <div className="tableItems">
+        <div className="deskItems">
           <div>
             <h3>Lorem Ipsum</h3>
-            <img src={tableImg3} className="tableImages" alt="items" />
-            <div className="tableDetails">
+            <img src={deskImg3} className="deskImages" alt="items" />
+            <div className="deskDetails">
               <span>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -67,4 +67,4 @@ class TablesUpdate extends Component {
   }
 }
 
-export default TablesUpdate;
+export default DesksUpdate;
