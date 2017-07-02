@@ -35,9 +35,11 @@ class Footer extends Component {
                     <span>Facebook</span>
                 </div>
         	</div>
+            
         	<div className="footerItems">
         		
         	</div>
+
         	<div className="footerItems">
         		<h3>Contact Us</h3>
                 <div>
