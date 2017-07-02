@@ -20,5 +20,9 @@
 }
 
 .media__container {
-	display: none;
+	display: block;
+}
+
+.media__icon {
+	display: inline-block;
 }
