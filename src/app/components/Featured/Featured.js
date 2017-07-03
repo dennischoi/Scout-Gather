@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import Chairs from '../Chairs/Chairs';
 import Desks from '../Desks/Desks';
 import Tables from '../Tables/Tables';
+import Misc from '../Misc/Misc';
 
 
 // Import Styles and Images
@@ -36,6 +37,8 @@ class Featured extends Component {
           <Desks />
 
           <Tables />
+
+          <Misc />
           
         </section>
 

@@ -14,6 +14,7 @@ import '../styles/css/Featured/Featured.css';
 import '../styles/css/Chairs/Chairs.css';
 import '../styles/css/Desks/Desks.css';
 import '../styles/css/Tables/Tables.css';
+import '../styles/css/Misc/Misc.css';
 
 class App extends Component {
   render() {
