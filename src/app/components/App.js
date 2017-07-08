@@ -6,7 +6,7 @@ import Featured from './Featured/Featured';
 import Footer from './Footer/Footer';
 
 // Import Styles and Images
-import logoBg from '../images/Valex_homebg.jpg';
+import logoBg from '../images/ScoutGather.jpg';
 import '../styles/css/App.css';
 import '../styles/css/Header/Header.css';
 import '../styles/css/Footer/Footer.css';
