@@ -6,7 +6,7 @@ import React, { Component } from 'react';
 // Import Styles and Images
 import tableImg1 from '../../images/sg_counter_1.jpg';
 import tableImg2 from '../../images/sg_counter_2.jpg';
-import tableImg3 from '../../images/valex_drawer.jpg';
+import tableImg3 from '../../images/sg_drawer_1.jpg';
 
 class TablesUpdate extends Component {
   constructor(props) {

@@ -6,7 +6,7 @@ import React, { Component } from 'react';
 // Import Styles and Images
 import miscImg1 from '../../images/sg_lamp_1.jpg';
 import miscImg2 from '../../images/sg_lamp_2.jpg';
-import miscImg3 from '../../images/valex_drawer.jpg';
+import miscImg3 from '../../images/sg_drawer_1.jpg';
 
 class MiscUpdate extends Component {
   constructor(props) {
