@@ -4,8 +4,8 @@ import React, { Component } from 'react';
 
 
 // Import Styles and Images
-import miscImg1 from '../../images/valex_chair.jpg';
-import miscImg2 from '../../images/valex_desk.jpg';
+import miscImg1 from '../../images/sg_lamp_1.jpg';
+import miscImg2 from '../../images/sg_lamp_2.jpg';
 import miscImg3 from '../../images/valex_drawer.jpg';
 
 class MiscUpdate extends Component {

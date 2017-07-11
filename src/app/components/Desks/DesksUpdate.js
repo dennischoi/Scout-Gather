@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 
 
 // Import Styles and Images
-import deskImg1 from '../../images/valex_chair.jpg';
+import deskImg1 from '../../images/sg_desk_1.jpg';
 import deskImg2 from '../../images/valex_desk.jpg';
 import deskImg3 from '../../images/valex_drawer.jpg';
 

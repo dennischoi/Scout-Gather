@@ -4,8 +4,8 @@ import React, { Component } from 'react';
 
 
 // Import Styles and Images
-import tableImg1 from '../../images/valex_chair.jpg';
-import tableImg2 from '../../images/valex_desk.jpg';
+import tableImg1 from '../../images/sg_counter_1.jpg';
+import tableImg2 from '../../images/sg_counter_2.jpg';
 import tableImg3 from '../../images/valex_drawer.jpg';
 
 class TablesUpdate extends Component {

@@ -5,7 +5,7 @@ import React, { Component } from 'react';
 
 // Import Styles and Images
 import chairImg1 from '../../images/valex_chair.jpg';
-import chairImg2 from '../../images/valex_desk.jpg';
+import chairImg2 from '../../images/sg_chair_1.jpg';
 import chairImg3 from '../../images/valex_drawer.jpg';
 
 class ChairsUpdate extends Component {
