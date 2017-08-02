@@ -4,9 +4,9 @@ import React, { Component } from 'react';
 
 
 // Import Styles and Images
-import chairImg1 from '../../images/sg_chair_1.jpg';
+import chairImg1 from '../../images/sg_chair_1.JPG';
 import chairImg2 from '../../images/sg_chair_2.jpg';
-import chairImg3 from '../../images/sg_chair_3.jpg';
+import chairImg3 from '../../images/sg_chair_3.JPG';
 
 class ChairsUpdate extends Component {
   constructor(props) {

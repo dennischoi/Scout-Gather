@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 
 
 // Import Styles and Images
-import deskImg1 from '../../images/sg_desk_1.jpg';
+import deskImg1 from '../../images/sg_desk_1.JPG';
 import deskImg2 from '../../images/sg_desk_2.jpg';
 import deskImg3 from '../../images/sg_drawer_1.jpg';
 
