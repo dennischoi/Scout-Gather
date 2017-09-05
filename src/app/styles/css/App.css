@@ -1,3 +1,14 @@
+@import url('Home/Home.css');
+@import url('Header/Header.css');
+@import url('Footer/Footer.css');
+/* Items */
+@import url('Featured/Featured.css');
+@import url('Chairs/Chairs.css');
+@import url('Desks/Desks.css');
+@import url('Tables/Tables.css');
+@import url('Misc/Misc.css');
+
+
 .App {
   text-align: center;
 }

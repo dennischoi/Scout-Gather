@@ -26,9 +26,7 @@ class Featured extends Component {
     return (
       <div>
         <div>
-          <div className="subTitle--container">
-            <span className="subTitle--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
-          </div>
+          
         </div>
         <section className="Featured">
 

@@ -1,0 +1,44 @@
+.subTitle--container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 200px;
+	margin: 0 20%;
+	border-bottom: 2px solid black;
+}
+
+.subTitle--text {
+	flex: 1;
+	font-size: 1.25em;
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+.Home--description {
+	display: flex;
+	padding: 2em 0;
+}
+.Home--d1, .Home--d2, .Home--d3 {
+	flex: 1;
+	padding: 2em 3.5em;
+}
+.img-monitor, .img-question, .img-delivery {
+	margin: 10% 15%;
+}
+
+
+
+/* Media Q when at 700px */
+@media(max-width: 700px) {
+	.Home--description {
+		flex-direction: column;
+	}
+
+	.img-monitor, .img-question, .img-delivery {
+		margin: 10% 15%;
+	}
+	.Home--d1, .Home--d2, .Home--d3 {
+		padding: 3.5em 3.5em 2em;
+	}
+}

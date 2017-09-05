@@ -9,13 +9,7 @@ import Footer from './Footer/Footer';
 // Import Styles and Images
 import logoBg from '../images/ScoutGather.jpg';
 import '../styles/css/App.css';
-import '../styles/css/Header/Header.css';
-import '../styles/css/Footer/Footer.css';
-import '../styles/css/Featured/Featured.css';
-import '../styles/css/Chairs/Chairs.css';
-import '../styles/css/Desks/Desks.css';
-import '../styles/css/Tables/Tables.css';
-import '../styles/css/Misc/Misc.css';
+
 
 class App extends Component {
   render() {
