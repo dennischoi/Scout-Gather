@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import { Jumbotron, Button } from 'react-bootstrap';
+
 // Import Components
 import Footer from '../Footer/Footer';
 
@@ -8,7 +10,7 @@ import monitor from '../../images/Home/monitor.svg';
 // import smartphone from '../../images/Home/smartphone.svg';
 import question from '../../images/Home/question.svg';
 import delivery from '../../images/Home/delivery-truck.svg';
-import logoBg from '../../images/ScoutGather.jpg';
+
 
 
 class Home extends Component {
@@ -16,7 +18,10 @@ class Home extends Component {
     return (
       <div className="Home--Main content--bg">
         <div className="App-Home">
-          <img src={logoBg} className="appBg" alt="logo" />
+          <Jumbotron className="appBg">
+            
+            <p className="appBg--btn"><Button bsStyle="primary">Learn more</Button></p>
+          </Jumbotron>
         </div>
         <div className="subTitle--container">
         	<span className="subTitle--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
