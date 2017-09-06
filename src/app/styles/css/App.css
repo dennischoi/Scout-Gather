@@ -8,6 +8,9 @@
 @import url('Tables/Tables.css');
 @import url('Misc/Misc.css');
 
+/* Override CSS */
+@import url('Override/Override.css');
+
 
 .App {
   text-align: center;

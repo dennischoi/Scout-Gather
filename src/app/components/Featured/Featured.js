@@ -24,7 +24,7 @@ class Featured extends Component {
     //   )
     // })
     return (
-      <div>
+      <div className="content--bg">
         <div>
           
         </div>

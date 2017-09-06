@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 // Import Components
+import Footer from '../Footer/Footer';
 
 // Import Styles and Images
 import monitor from '../../images/Home/monitor.svg';
@@ -13,7 +14,7 @@ import logoBg from '../../images/ScoutGather.jpg';
 class Home extends Component {
   render() {
     return (
-      <div className="Home--Main">
+      <div className="Home--Main content--bg">
         <div className="App-Home">
           <img src={logoBg} className="appBg" alt="logo" />
         </div>
@@ -55,6 +56,8 @@ class Home extends Component {
             </div>
           </div>
         </div>
+
+        <Footer />
       </div>
     );
   }
