@@ -7,12 +7,16 @@ import monitor from '../../images/Home/monitor.svg';
 // import smartphone from '../../images/Home/smartphone.svg';
 import question from '../../images/Home/question.svg';
 import delivery from '../../images/Home/delivery-truck.svg';
+import logoBg from '../../images/ScoutGather.jpg';
 
 
 class Home extends Component {
   render() {
     return (
-      <div className="Home--Mmain">
+      <div className="Home--Main">
+        <div className="App-Home">
+          <img src={logoBg} className="appBg" alt="logo" />
+        </div>
         <div className="subTitle--container">
         	<span className="subTitle--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
         </div>
