@@ -56,3 +56,13 @@
 .contact__icon {
 	margin-right: 0.8em;
 }
+
+
+/* MEDIA Q for App Size */
+
+@media (min-width: 500px) {
+	.footerContainer {
+		flex-direction: column;
+		justify-content: center;
+	}
+}
