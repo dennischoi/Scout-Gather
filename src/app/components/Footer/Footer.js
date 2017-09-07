@@ -21,35 +21,37 @@ class Footer extends Component {
         	</div>
         	<div className="footerItems">
         		<h3>Media</h3>
-                <div className="media__container">
-                    <a href="https://www.instagram.com/scout.gather/" className="media__anchor" rel="noopener" target="_blank" onclick="var otherWindow = window.open(); otherWindow.opener = null; otherWindow.location = href; return false;">
-                        <div className="media__icon">
-                            <div>
-                                <img src={instagram} className="footer__instagram" alt="instagram" />
+                <div className="media__box">
+                    <div className="media__container">
+                        <a href="https://www.instagram.com/scout.gather/" className="media__anchor" rel="noopener" target="_blank" onclick="var otherWindow = window.open(); otherWindow.opener = null; otherWindow.location = href; return false;">
+                            <div className="media__icon">
+                                <div>
+                                    <img src={instagram} className="footer__instagram" alt="instagram" />
+                                </div>
                             </div>
-                        </div>
-                        <span>Instagram</span>
-                    </a>
-                </div>
-                <div className="media__container">
-                    <a href="https://www.instagram.com/scout.gather/" className="media__anchor" rel="noopener" target="_blank" onclick="var otherWindow = window.open(); otherWindow.opener = null; otherWindow.location = href; return false;">
-                        <div className="media__icon">
-                            <div>
-                                <img src={facebook} className="footer__facebook" alt="facebook" />
+                            <span>Instagram</span>
+                        </a>
+                    </div>
+                    <div className="media__container">
+                        <a href="https://www.instagram.com/scout.gather/" className="media__anchor" rel="noopener" target="_blank" onclick="var otherWindow = window.open(); otherWindow.opener = null; otherWindow.location = href; return false;">
+                            <div className="media__icon">
+                                <div>
+                                    <img src={facebook} className="footer__facebook" alt="facebook" />
+                                </div>
                             </div>
-                        </div>
-                        <span>Facebook</span>
-                    </a>
-                </div>
-                <div className="media__container">
-                    <a href="https://www.instagram.com/scout.gather/" className="media__anchor" rel="noopener" target="_blank" onclick="var otherWindow = window.open(); otherWindow.opener = null; otherWindow.location = href; return false;">
-                        <div className="media__icon">
-                            <div>
-                                <img src={twitter} className="footer__twitter" alt="twitter" />
+                            <span>Facebook</span>
+                        </a>
+                    </div>
+                    <div className="media__container">
+                        <a href="https://www.instagram.com/scout.gather/" className="media__anchor" rel="noopener" target="_blank" onclick="var otherWindow = window.open(); otherWindow.opener = null; otherWindow.location = href; return false;">
+                            <div className="media__icon">
+                                <div>
+                                    <img src={twitter} className="footer__twitter" alt="twitter" />
+                                </div>
                             </div>
-                        </div>
-                        <span>Twitter</span>
-                    </a>
+                            <span>Twitter</span>
+                        </a>
+                    </div>
                 </div>
         	</div>
             
@@ -65,7 +67,7 @@ class Footer extends Component {
                             <img src={map} className="footer__map" alt="map" />
                         </div>
                     </div>
-                    <div className="contact__icon">
+                    <div>
                         <div>
                             <span>777 whereever lucky ave. Lucky, ON. S7S 7S7</span>
                         </div>
