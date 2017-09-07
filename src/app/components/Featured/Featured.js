@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 
 // Import Components
-import Chairs from '../Chairs/Chairs';
-import Desks from '../Desks/Desks';
-import Tables from '../Tables/Tables';
-import Misc from '../Misc/Misc';
+import FeaturedChairs from '../Chairs/FeaturedChairs';
+import FeaturedDesks from '../Desks/FeaturedDesks';
+import FeaturedTables from '../Tables/FeaturedTables';
+import FeaturedMisc from '../Misc/FeaturedMisc';
+
 
 
 // Import Styles and Images
@@ -30,13 +31,13 @@ class Featured extends Component {
         </div>
         <section className="Featured">
 
-          <Chairs />
+          <FeaturedChairs />
 
-          <Desks />
+          <FeaturedDesks />
 
-          <Tables />
+          <FeaturedTables />
 
-          <Misc />
+          <FeaturedMisc />
           
         </section>
 

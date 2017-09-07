@@ -1,5 +1,5 @@
 .footerMain {
-	height: 200px;
+	min-height: 200px;
 	background-color: #222;
 	color: #fff;
 }
@@ -12,17 +12,47 @@
 
 .footerItems {
 	flex: 1;
-	padding: 15px;
+	padding: 1em 3em;
 }
 
 .footerLocation {
 	display: none;
 }
 
+/* MEDIA Valves */
 .media__container {
-	display: block;
+	display: flex;
+	padding-bottom: 1em;
+}
+.media__anchor {
+	display: flex;
+	align-items: center;
+	color: #fff;
+}
+.media__anchor:hover {
+	/* color: darken(#fff, 10%); */
+	color: #fff;
+}
+.media__anchor:active, .media__anchor:focus {
+	color: #fff !important;
 }
 
 .media__icon {
-	display: inline-block;
+	margin-right: 0.8em;
+}
+
+.footer__instagram, .footer__facebook, .footer__twitter, .footer__telephone, .footer__map {
+	width: 35px;
+}
+
+
+/* Contact Section */
+.contact__container {
+	display: flex;
+	align-items: center;
+	padding-bottom: 1em;
+}
+
+.contact__icon {
+	margin-right: 0.8em;
 }

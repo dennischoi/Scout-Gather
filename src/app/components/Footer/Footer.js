@@ -3,7 +3,10 @@ import React, { Component } from 'react';
 // Import Components
 
 // Import Styles and Images
-
+import facebook from '../../images/Footer/facebook-logo-button.svg';
+import instagram from '../../images/Footer/instagram-logo.svg';
+import twitter from '../../images/Footer/twitter-logo-button.svg';
+import map from '../../images/Footer/maplocate.svg';
 
 class Footer extends Component {
   render() {
@@ -19,20 +22,34 @@ class Footer extends Component {
         	<div className="footerItems">
         		<h3>Media</h3>
                 <div className="media__container">
-                    <div className="media__icon">
-                        <div>
-                        img here
+                    <a href="https://www.instagram.com/scout.gather/" className="media__anchor" rel="noopener" target="_blank" onclick="var otherWindow = window.open(); otherWindow.opener = null; otherWindow.location = href; return false;">
+                        <div className="media__icon">
+                            <div>
+                                <img src={instagram} className="footer__instagram" alt="instagram" />
+                            </div>
                         </div>
-                    </div>
-                    <span>Instagram</span>
+                        <span>Instagram</span>
+                    </a>
                 </div>
                 <div className="media__container">
-                    <div className="media__icon">
-                        <div>
-                        img here
+                    <a href="https://www.instagram.com/scout.gather/" className="media__anchor" rel="noopener" target="_blank" onclick="var otherWindow = window.open(); otherWindow.opener = null; otherWindow.location = href; return false;">
+                        <div className="media__icon">
+                            <div>
+                                <img src={facebook} className="footer__facebook" alt="facebook" />
+                            </div>
                         </div>
-                    </div>
-                    <span>Facebook</span>
+                        <span>Facebook</span>
+                    </a>
+                </div>
+                <div className="media__container">
+                    <a href="https://www.instagram.com/scout.gather/" className="media__anchor" rel="noopener" target="_blank" onclick="var otherWindow = window.open(); otherWindow.opener = null; otherWindow.location = href; return false;">
+                        <div className="media__icon">
+                            <div>
+                                <img src={twitter} className="footer__twitter" alt="twitter" />
+                            </div>
+                        </div>
+                        <span>Twitter</span>
+                    </a>
                 </div>
         	</div>
             
@@ -42,8 +59,20 @@ class Footer extends Component {
 
         	<div className="footerItems">
         		<h3>Contact Us</h3>
-                <div>
-                    <span>Phone Number ---</span>
+                <div className="contact__container">
+                    <div className="contact__icon">
+                        <div>
+                            <img src={map} className="footer__map" alt="map" />
+                        </div>
+                    </div>
+                    <div className="contact__icon">
+                        <div>
+                            <span>777 whereever lucky ave. Lucky, ON. S7S 7S7</span>
+                        </div>
+                        <div>
+                            <span>###-###-####</span>
+                        </div>
+                    </div>
                 </div>
         	</div>
         </section>
