@@ -2,25 +2,24 @@ import React, { Component } from 'react';
 
 
 // Import Components
-import AppLayout from './AppLayout';
+import Header from './Header/Header';
 
 
 // Import Styles and Images
 
-import '../styles/css/App.css';
 
 
-class App extends Component {
+class AppLayout extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="AppLayout">
         <div>  
-          <AppLayout />
-
+          <Header />
+          
         </div>
       </div>
     );
   }
 }
 
-export default App;
+export default AppLayout;
