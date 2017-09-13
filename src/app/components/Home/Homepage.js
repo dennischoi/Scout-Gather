@@ -12,6 +12,8 @@ import question from '../../images/Home/question.svg';
 import delivery from '../../images/Home/delivery-truck.svg';
 
 
+import s from './Homepage.css';
+
 
 class Home extends Component {
   render() {
@@ -44,7 +46,7 @@ class Home extends Component {
               <div>
                 <img src={question} className="img-question" alt="question" />
               </div>
-              <span>
+              <span className={s.card}>
                 Ask Questions / Negotiate Price
               </span>
             </div>
